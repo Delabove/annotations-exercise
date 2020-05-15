@@ -4,8 +4,10 @@
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unchecked")
 public class Author extends Person {
     private List books;
+
 
     public Author(String firstName, String lastName) {
         super(firstName, lastName);
@@ -28,8 +30,8 @@ public class Author extends Person {
         books.add(book);
     }
 
-    @Override
-    public String fullName() {
-        return String.format("%s, %s",firstName, lastName);
-    }
+//    @Override
+//    public String fullName() {
+//        return String.format("%s, %s",firstName, lastName);
+//    }
 }

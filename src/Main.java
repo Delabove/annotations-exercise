@@ -1,6 +1,7 @@
 public class Main {
+    @SuppressWarnings({"depracation"})
     public static void main(String[] args) {
-        @SuppressWarnings({"Depracation",  })
+
         Author author = new Author("Sandi", "Metz");
 
         author.addBook("Practical Object-Oriented Design in Ruby");
